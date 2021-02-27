@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="48.6293">
+<testcase classname="Sample selenium test cases for Selenium and Azure key Vault" name="Search arm and google in Google search" time="20.357561">
+<system-out><![CDATA[Given I open the search engine 'arm'........................................passed
+When I search for the 'arm' in step.........................................passed
+And I click enter...........................................................passed
+Then I should see the results as 'arm'......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample selenium test cases for Selenium and Azure key Vault" name="Search arm and google in Google search 2" time="13.539527">
+<system-out><![CDATA[Given I open the search engine 'google'.....................................passed
+When I search for the 'google' in step......................................passed
+And I click enter...........................................................passed
+Then I should see the results as 'google'...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample selenium test cases for Selenium and Azure key Vault" name="Search Microsoft in Google search" time="14.661255">
+<system-out><![CDATA[Given I open the search engine 'microsoft'..................................passed
+When I search for the 'microsoft' in step...................................passed
+And I click enter...........................................................passed
+Then I should see the results as 'microsoft'................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample selenium test cases for Selenium and Azure key Vault" name="Get secret value from Azure Key Vault" time="0.070957">
+<system-out><![CDATA[Given I have a variable stored in properties file...........................passed
+When I try to get the value from Azure Key Value as "azurevariable".........passed
+Then the value retrieved should be "applicationpassword"....................passed
+]]></system-out>
+</testcase>
+</testsuite>
